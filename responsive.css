@@ -1,0 +1,111 @@
+@media only screen and (max-width: 992px) {
+    .header-content h1 {
+        font-size: 42px;
+    }
+    .text-border {
+        border-bottom: 5px solid rgba(72, 187, 120, 1);
+        height: 43px;
+        display: inline-block;
+    }
+    .header-para {
+        color: #595E66;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+    }
+    .header_img img {
+        padding-top: 20px;
+        height: 80%;
+    }
+    .sign_up p {
+        font-size: 14px;
+        padding: 15px;
+        background-color: #48BB78;
+        border-radius: 0 10px 10px 0;
+        transition: 0.3s all ease;
+        width: 130%;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .brand_name {
+        font-size: 18px;
+        color: #2D3748;
+    }
+    .text-border {
+        border-bottom: 5px solid rgba(72, 187, 120, 1);
+        height: 43px;
+        display: inline-block;
+    }
+    .contact_mail {
+        font-size: 12px;
+        border: none;
+    }
+    .curbon-btn {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .brand_name h1 {
+        font-size: 35px;
+    }
+    .contact_mail {
+        font-size: 12px;
+        border: none;
+        width: 258px;
+    }
+    .contact_mail a {
+        font-size: 16px;
+    }
+    .user_email input {
+        font-size: 11px;
+    }
+    .header-content {
+        margin-top: 0px;
+    }
+    .header-content h1 {
+        font-size: 32px;
+    }
+    .text-border {
+        border-bottom: 5px solid rgba(72, 187, 120, 1);
+        height: 32px;
+        display: inline-block;
+    }
+    .header-para {
+        color: #595E66;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+    }
+    .sign_up p {
+        font-size: 11px;
+        padding: 15px;
+        background-color: #48BB78;
+        border-radius: 0 10px 10px 0;
+        transition: 0.3s all ease;
+        width: 110%;
+        height: 50px;
+    }
+    .text-center,
+    .pm h2 {
+        font-size: 18px;
+    }
+    .footer p {
+        font-size: 17px;
+    }
+    .curbon-btn {
+        text-align: left;
+    }
+    .contact_mail {
+        text-align: right;
+        margin-bottom: 35px;
+    }
+    .contact_mail a {
+        padding: 10px 85px;
+    }
+    .header-content {
+        padding-top: 19px;
+    }
+}
